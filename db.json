@@ -43,28 +43,22 @@
       "id": 7
     },
     {
-      "actual_name": "rrr666",
-      "short_name": "rrrr666",
-      "allow_decimal": "rrrr666",
+      "actual_name": "unit7",
+      "short_name": "77",
+      "allow_decimal": "eryer",
       "id": 8
     },
     {
-      "actual_name": "dwd",
-      "short_name": "dwd",
-      "allow_decimal": "SDSD",
+      "actual_name": "unit7",
+      "short_name": "u7",
+      "allow_decimal": "7",
       "id": 9
     },
     {
-      "actual_name": "dawsd",
-      "short_name": "sdas",
-      "allow_decimal": "sfasf",
+      "actual_name": "Unit23",
+      "short_name": "u23",
+      "allow_decimal": "2",
       "id": 10
-    },
-    {
-      "actual_name": "we",
-      "short_name": "we",
-      "allow_decimal": "atrt",
-      "id": 11
     }
   ]
 }

@@ -17,14 +17,14 @@ function Update() {
     const navigate = useNavigate();
 
     useEffect(() => {
-        axios.get('http://localhost:5000/users/'+id)
+        axios.get('http://localhost:5000/datatable/'+id)
         .then(res => setInputData(res.data))
         .catch(err => console.log(err))
     }, [])
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        axios.put('http://localhost:5000/users/'+id , inputData)
+        axios.put('http://localhost:5000/datatable/'+id , inputData)
         .then(res => {
             alert("Data Updated Successfully!")
             navigate('/')
@@ -56,7 +56,7 @@ function Update() {
                     <input type="text" name='allow_decimal' className='form-control' value={inputData.allow_decimal}
                     onChange={e => setInputData({...inputData, allow_decimal: e.target.value})}/>
                 </div><br />
-                <button className='btn btn-info'>Update</button>
+                <button className='btn btn-info' type='submit'>Update</button>
             </form>
         </div>
     </div>

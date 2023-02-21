@@ -11,7 +11,7 @@ function Read() {
     const [Data, setdata] = useState([])
 
     useEffect(() => {
-        axios.get('http://localhost:5000/users/'+id)
+        axios.get('http://localhost:5000/datatable/'+id)
         .then(res => setdata(res.data))
         .catch(err => console.log(err))
     }, [])

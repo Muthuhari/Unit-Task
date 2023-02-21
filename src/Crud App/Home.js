@@ -15,8 +15,13 @@ function Home() {
   }, []);
 
   function handleDelete(id) {
-    setData(data.filter(d => d.id !== id));
+    if (window.confirm("Are you sure you want to delete this unit?")) {
+      axios.delete(`http://localhost:5000/datatable/${id}`)
+        .then(res => setData(data.filter(d => d.id !== id)))
+        .catch(err => console.log(err));
+    }
   }
+  
 
   return (
     <div className='container '>
