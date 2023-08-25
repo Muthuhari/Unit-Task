@@ -29,7 +29,7 @@ function Home() {
 {/*start */}
 <div>
 <div class="col-sm-3 mt-5 mb-4 text-gred" style={{color:"black", display: "flex", flexDirection: "column", alignItems: "center"}}>
-        <h5><b>Welcome to Parallax Technologies</b></h5></div>
+        <h5><b>Welcome to ABC Technologies</b></h5></div>
 
 
         <div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
