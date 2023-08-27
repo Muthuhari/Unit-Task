@@ -47,6 +47,12 @@
       "short_name": "u23",
       "allow_decimal": "2",
       "id": 10
+    },
+    {
+      "actual_name": "UnitTest",
+      "short_name": "UT",
+      "allow_decimal": "6",
+      "id": 11
     }
   ]
 }
